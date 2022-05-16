@@ -4929,6 +4929,10 @@ sup {
     width: 20px;
     font-size: 20px;
     margin: 10px 5px 0px;
+    
+    a {
+        text-decoration: none;  
+    }
 }
 
 .header-icons .icon:active,
