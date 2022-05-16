@@ -4918,14 +4918,17 @@ sup {
 }
 
 .header-icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 20px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50%;
     border: 2px solid #fff;
     transition: all .7s;
     width: 20px;
     font-size: 20px;
-    margin: 5px
+    margin: 10px 5px 0px;
 }
 
 .header-icons .icon:active,
@@ -4938,7 +4941,7 @@ sup {
     .header-icons .icon {
         width: 35px;
         height: 35px;
-        font-size: 35px
+        font-size: 26px
     }
 }
 
